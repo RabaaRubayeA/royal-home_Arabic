@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>رويال هوم</title>
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="hero-badge">فخامة تستحقها</span>
+        <h1>رويال هوم للأثاث</h1>
+        <p>حيث تلتقي الفخامة الملكية بالجودة العالمية. نتميز بتفصيل أرقى غرف النوم والكنب بأيدي أمهر الحرفيين في اليمن.</p>
+        <div class="hero-buttons">
+            <a href="https://wa.me" target="_blank" class="btn-primary pulse">احجز غرفتك الآن</a>
+            <a href="#catalog" class="btn-secondary">تصفح الموديلات</a>
+        </div>
+    </div>
+</section>
+<!-- ***********************************8 -->
+
+<section id="catalog" class="catalog-section">
+    <h2 class="section-title">كتالوج المنتجات</h2>
+    
+    <!-- أزرار التبديل -->
+    <div class="tabs-container">
+        <button class="tab-btn active" onclick="openTab(event, 'beds')">غرف نوم ملكية</button>
+        <button class="tab-btn " onclick="openTab(event, 'sofas')">أطقم كنب وجلسات</button>
+    </div>
+
+    <!-- محتوى غرف النوم -->
+    <div id="beds" class="tab-content active-content">
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="assets/images/royal-bed.jpg" alt="غرفة نوم">
+                <h3>غرفة نوم ملكية</h3>
+                <p>خشب ماليزي ممتاز مع إضاءة LED</p>
+                <a href="https://wa.me عن غرفة كليوباترا" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-bed1.jpg" alt="غرفة نوم">
+                <h3>غرفة نوم ملكية</h3>
+                <p>خشب ماليزي ممتاز مع إضاءة LED</p>
+                <a href="https://wa.me عن غرفة كليوباترا" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-bed2.jpg" alt="غرفة نوم">
+                <h3>غرفة نوم ملكية</h3>
+                <p>خشب ماليزي ممتاز مع إضاءة LED</p>
+                <a href="https://wa.me عن غرفة كليوباترا" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-bed3.jpg" alt="غرفة نوم">
+                <h3>غرفة نوم ملكية</h3>
+                <p>خشب ماليزي ممتاز مع إضاءة LED</p>
+                <a href="https://wa.me عن غرفة كليوباترا" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-bed4.jpg" alt="غرفة نوم">
+                <h3>غرفة نوم ملكية</h3>
+                <p>خشب ماليزي ممتاز مع إضاءة LED</p>
+                <a href="https://wa.me عن غرفة كليوباترا" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-bed1.jpg" alt="غرفة نوم">
+                <h3>غرفة نوم ملكية</h3>
+                <p>خشب ماليزي ممتاز مع إضاءة LED</p>
+                <a href="https://wa.me عن غرفة كليوباترا" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <!-- كرري الـ product-card لقطع أخرى -->
+        </div>
+    </div>
+
+    <!-- محتوى الكنب -->
+    <div id="sofas" class="tab-content">
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="assets/images/royal-kanab1.jpg" alt="طقم كنب">
+                <h3>طقم كنب ديوان تركي</h3>
+                <p>إسفنج ضغط عالي وقماش مخمل فاخر</p>
+                <a href="https://wa.me عن طقم ديوان" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-kanab2.jpg" alt="طقم كنب">
+                <h3>طقم كنب ديوان تركي</h3>
+                <p>إسفنج ضغط عالي وقماش مخمل فاخر</p>
+                <a href="https://wa.me عن طقم ديوان" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/royal-kanab3.jpg" alt="طقم كنب">
+                <h3>طقم كنب ديوان تركي</h3>
+                <p>إسفنج ضغط عالي وقماش مخمل فاخر</p>
+                <a href="https://wa.me عن طقم ديوان" class="wa-order-btn">استفسار عبر واتساب</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
