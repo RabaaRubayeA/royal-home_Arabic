@@ -208,3 +208,210 @@ html {
     margin-top: 15px;
     font-weight: bold;
 }
+/* ********************** */
+
+
+/* ==================== قسم المميزات ==================== */
+.features-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 10%;
+    background: #ffffff;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    flex: 1;
+    min-width: 250px;
+    background: #fafafa;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #d4af37; /* لمسة ذهبية في الأعلى */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    margin-bottom: 12px;
+    color: #1a1a1a;
+    font-size: 1.3rem;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* ==================== قسم طلب تفصيل خاص ==================== */
+.custom-order-section {
+    background: linear-gradient(rgba(26, 20, 10, 0.85), rgba(15, 15, 15, 0.95)), url('assets/images/royal-bed.jpg') no-repeat center center/cover;
+    padding: 80px 10%;
+    text-align: center;
+    color: #fff;
+}
+
+.custom-order-content max-width {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.custom-order-section h2 {
+    font-size: 2.3rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.custom-order-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    color: #e0e0e0;
+}
+
+.btn-custom-wa {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-custom-wa:hover {
+    background: #20ba56;
+    transform: scale(1.03);
+}
+
+/* ==================== قسم آراء العملاء ==================== */
+.testimonials-section {
+    padding: 60px 10%;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    text-align: right; /* محاذاة النص العربي */
+    position: relative;
+}
+
+.testimonial-card .stars {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.testimonial-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+    color: #d4af37;
+    font-size: 1rem;
+}
+
+/* ==================== الفوتر والتواصل ==================== */
+.main-footer {
+    background: #111111;
+    color: #ffffff;
+    padding: 50px 10% 20px 10%;
+    font-family: 'Cairo', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-bottom: 1px solid #222;
+    padding-bottom: 40px;
+}
+
+.footer-info, .footer-contact {
+    flex: 1;
+    min-width: 280px;
+}
+
+.main-footer h3 {
+    color: #d4af37;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.footer-info ul {
+    list-style: none;
+}
+
+.footer-info ul li {
+    margin-bottom: 15px;
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+.footer-contact p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    border: 1px solid #d4af37;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #d4af37;
+    color: #111;
+}
+
+.footer-bottom, .footer-bottom>p>a {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.footer-bottom>p>a{
+    font-size: 0.95rem;
+    cursor: pointer;
+        transition: color 0.3s;
+}
+
+.footer-bottom>p>a:hover{
+    color: #d4af37;
+}   
